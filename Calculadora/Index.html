@@ -1,0 +1,49 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilos.css" >
+    <script src="cerebro.js" defer></script>
+</head>
+    <body>
+    <form id="calculadora">
+    <table>
+        <tr>
+            <td colspan="4"><input type="text" readonly id="resultado"></td>
+                
+        </tr>
+        <tr> 
+            <td><button type="button" id="clear" class="operacion">C</button></td>
+            <td><button type="button" id="dividir" class="operacion" >/</button></td>
+            <td><button type="button" id="multiplicar" class="operacion">X</button></td>
+            <td rowspan="2"><button type="button" id="resta" class="operacion">-</button></td>
+        
+            </td>
+        </tr>
+        <tr>
+            <td><button type="button" class="numero">1</button></td>
+            <td><button type="button" class="numero">2</button></td>
+            <td><button type="button" class="numero">3</button></td>    
+        </tr>
+        <tr>
+            <td><button type="button" class="numero">4</button></td>
+            <td><button type="button" class="numero">5</button></td>
+            <td><button type="button" class="numero">6</button></td>
+            <td rowspan="2"><button type="button" id="sumar" class="operacion">+</button></td>
+        </tr>
+        <tr>
+            <td><button type="button" class="numero">7</button></td>
+            <td><button type="button" class="numero">8</button></td>
+            <td><button type="button" class="numero">9</button></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button type="button" class="numero">0</button></td>
+            <td colspan="2"><button type="button" id="igual" class="operacion">=</button></td>
+        </tr>
+    </table>
+</form>
+
+
+</body>
+</html>
